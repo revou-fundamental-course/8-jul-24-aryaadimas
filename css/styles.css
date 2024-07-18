@@ -1,1 +1,90 @@
-/*ini css*/
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-style: solid;
+    background-color: rgb(253, 241, 212);
+}
+
+.left-grid {
+    padding-left: .5cm;
+    padding-right: .5cm;
+}
+
+.right-grid {
+    padding-left: .5cm;
+    padding-right: .5cm;
+    display: none;
+}
+
+.kalkulator {
+    background-color: rgba(184, 152, 152, 0.233);
+    padding: 5px 5px 15px 15px;
+}
+
+.inputt {
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    width: 150px;
+    font-weight: bold;
+}
+
+.hitungbut {
+    background-color:aqua;
+    border-color: aqua;
+    margin-top: .5cm;
+    margin-right: .4cm;
+    font-size: .5cm;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+}
+
+.resetbut {
+    font-size: .5cm;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+}
+
+.hasil {
+    background-color:  rgba(184, 152, 152, 0.233);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.hasilbut {
+    background-color: aqua;
+    border: none;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: .4cm;
+}
+
+.penyakit {
+    background-color: rgba(184, 152, 152, 0.233);
+    padding: 5px 5px 15px 15px;
+    margin-bottom: 1cm;
+}
+
+.gizii {
+    margin-left: 2cm;
+    margin-right: 1cm;
+    background-color: aqua;
+    border: none;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: .4cm;
+}
